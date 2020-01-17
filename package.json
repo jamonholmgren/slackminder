@@ -1,0 +1,21 @@
+{
+  "name": "slackminder",
+  "version": "0.0.1",
+  "description": "An Electron-powered desktop app for Slack reminders",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "repository": "https://github.com/infinitered/slackminder",
+  "author": "GitHub",
+  "license": "All Rights Reserved",
+  "devDependencies": {
+    "electron": "^3.0.4"
+  },
+  "dependencies": {
+    "date-fns": "^1.29.0",
+    "electron-store": "^2.0.0",
+    "linkify-urls": "^2.1.0",
+    "slack": "^11.0.1"
+  }
+}

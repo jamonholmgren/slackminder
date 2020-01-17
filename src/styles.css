@@ -1,0 +1,186 @@
+body {
+  font-family: Geneva, sans-serif;
+}
+
+#logo {
+  font-weight: normal;
+  font-size: 34px;
+}
+
+#slogan {
+  font-style: italic;
+  font-size: 16px;
+  line-height: 1.5;
+  margin: 10px 0;
+}
+
+body.dark {
+  background-color: #1e1e1e;
+  color: #f5f7f8;
+}
+body.light {
+  background-color: #f5f7f8;
+  color: #2d435d;
+}
+
+.dark a[href] {
+  color: #4f778b;
+}
+.light a[href] {
+  color: #1c3d64;
+}
+
+ul,
+ul li,
+li {
+  margin: 0;
+  padding: 0;
+  text-indent: 0;
+  list-style-type: 0;
+}
+
+.todo {
+  display: block;
+  padding: 12px 16px;
+  margin: 25px 10px;
+  line-height: 1.4;
+  transition-duration: 1s;
+  opacity: 1;
+  overflow: hidden;
+}
+
+.light .todo {
+  background-color: white;
+  border: 8px solid white;
+}
+
+.dark .todo {
+  background-color: #222;
+  border: 8px solid #222;
+}
+
+.todo.complete {
+  text-decoration: line-through;
+  height: 1em;
+  overflow: hidden;
+  transition-duration: 1s;
+  opacity: 0.3;
+}
+
+.light .todo {
+  color: #1a1b1d;
+}
+.dark .todo {
+  color: #e0ebf3;
+}
+
+.todo .connected {
+  display: block;
+  font-size: 13px;
+  padding: 10px 0px;
+  line-height: 1.4;
+  overflow: hidden;
+  max-height: 5em;
+}
+
+.light .todo .connected {
+  color: #1a1b1d;
+}
+.dark .todo .connected {
+  color: #e0ebf3;
+}
+
+.todo .text:first-line {
+  display: block;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.todo .byline {
+  font-weight: bold !important;
+}
+
+.todo .text {
+  display: block;
+  font-weight: 100;
+  font-size: 12px;
+}
+
+.todo .timestamp {
+  display: inline-block;
+  font-weight: 100;
+  font-size: 12px;
+}
+
+.todo .mark-complete {
+  display: inline-block;
+  font-size: 12px;
+  padding: 4px;
+  border: 1px solid #647d9b;
+}
+
+.todo .mark-complete:hover {
+  cursor: pointer;
+  color: #d9552e !important;
+  border: 1px solid #d9552e;
+}
+
+.dark .todo .mark-complete {
+  color: #647d9b;
+  background-color: #333;
+}
+.light .todo .mark-complete {
+  color: #294668;
+  background-color: #c5daf2;
+}
+
+.todo .due {
+  font-size: 14px;
+  text-transform: uppercase;
+}
+.dark .todo .due {
+  color: #d9552e;
+}
+.light .todo .due {
+  color: #bd4b28;
+}
+
+p.alert {
+  padding: 8px 16px;
+}
+.dark p.alert {
+  background-color: #22466b;
+  color: #8bddff;
+  border: 1px solid #8bddff;
+}
+.light p.alert {
+  background-color: #8bddff;
+  color: #22466b;
+  border: 1px solid #22466b;
+}
+
+.menu {
+  text-align: center;
+}
+
+.menu button {
+  font-size: 14px;
+  margin: 10px;
+  display: inline-block;
+  padding: 6px 10px;
+  border: none;
+  line-height: 2;
+}
+.menu button:hover {
+  cursor: pointer;
+  background-color: #72b3cf !important;
+}
+
+.dark .menu button {
+  background-color: #22466b;
+  color: #8bddff;
+}
+.light .menu button {
+  background-color: #8bddff;
+  color: #22466b;
+}
