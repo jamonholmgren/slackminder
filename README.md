@@ -30,4 +30,6 @@ Note: If you're using Linux Bash for Windows, [see this guide](https://www.howto
 
 ## License
 
-Copyright 2018-present Infinite Red, Inc. All Rights Reserved.
+Copyright 2018-present Infinite Red, Inc.
+
+License: MIT
