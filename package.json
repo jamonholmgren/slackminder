@@ -1,6 +1,6 @@
 {
   "name": "slackminder",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "An Electron-powered desktop app for Slack reminders",
   "main": "main.js",
   "scripts": {
