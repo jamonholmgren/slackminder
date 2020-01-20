@@ -55,6 +55,14 @@ function onStateChange(oldState, newState) {
   }
 }
 
+// Jamon's "Poor Man's React" setState 😅
+function setState(newState) {
+  onStateChange(state, newState); // Side effects
+  Object.assign(state, newState); // Shallow merge
+  render(); // blow everything away and rerender
+  saveSnapshot(state, 100); // debounce 100ms for performance
+}
+
 async function preloadData(slackToken) {
   const authInfo = await setSlackToken(slackToken);
   // { ok, team, team_id, url, user, user_id }
@@ -75,14 +83,6 @@ async function preloadData(slackToken) {
     userIDs,
     usersLoaded: true
   });
-}
-
-// Jamon's "Poor Man's React" setState 😅
-function setState(newState) {
-  onStateChange(state, newState); // Side effects
-  Object.assign(state, newState); // Shallow merge
-  render(); // blow everything away and rerender
-  saveSnapshot(state, 100); // debounce 100ms for performance
 }
 
 // All callbacks are hung on `window`
