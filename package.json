@@ -1,14 +1,14 @@
 {
   "name": "slackminder",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "An Electron-powered desktop app for Slack reminders",
   "main": "main.js",
   "scripts": {
     "start": "electron ."
   },
-  "repository": "https://github.com/infinitered/slackminder",
-  "author": "GitHub",
-  "license": "All Rights Reserved",
+  "repository": "https://github.com/jamonholmgren/slackminder",
+  "author": "Jamon Holmgren",
+  "license": "MIT",
   "devDependencies": {
     "electron": "^3.0.4"
   },
