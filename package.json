@@ -6,9 +6,9 @@
   "scripts": {
     "start": "electron ."
   },
-  "repository": "https://github.com/infinitered/slackminder",
-  "author": "GitHub",
-  "license": "All Rights Reserved",
+  "repository": "https://github.com/jamonholmgren/slackminder",
+  "author": "Jamon Holmgren",
+  "license": "MIT",
   "devDependencies": {
     "electron": "^3.0.4"
   },

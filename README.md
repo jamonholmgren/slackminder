@@ -28,6 +28,16 @@ yarn start
 
 Note: If you're using Linux Bash for Windows, [see this guide](https://www.howtogeek.com/261575/how-to-run-graphical-linux-desktop-applications-from-windows-10s-bash-shell/) or use `node` from the command prompt.
 
+## Please help me make Slackminder better!
+
+I'm happy to show you how Slackminder works, but if you poke around in the src directory, you'll see the code is pretty straightforward. There aren't any big frameworks or libraries, no TypeScript, no WebPack, just JavaScript code.
+
+If you have questions or want to help out, hit me up on Twitter:
+
+[https://twitter.com/jamonholmgren](https://twitter.com/jamonholmgren)
+
 ## License
 
-Copyright 2018-present Jamon Holmgren. All Rights Reserved.
+Copyright 2018-present Jamon Holmgren.
+
+License: MIT
