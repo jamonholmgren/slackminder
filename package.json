@@ -10,7 +10,7 @@
   "author": "Jamon Holmgren",
   "license": "MIT",
   "devDependencies": {
-    "electron": "^3.0.4"
+    "electron": "^11.5.0"
   },
   "dependencies": {
     "date-fns": "^1.29.0",
